@@ -4,10 +4,10 @@ const bcrypt = require('bcrypt');
 const cors = require('cors');
 const knex = require('knex');
 
-const register = require('./face-recognition-app-api/controllers/register');
-const signin = require('./face-recognition-app-api/controllers/signin');
-const profile = require('./face-recognition-app-api/controllers/profile');
-const image = require('./face-recognition-app-api/controllers/image');
+const register = require('./controllers/register');
+const signin = require('./controllers/signin');
+const profile = require('./controllers/profile');
+const image = require('./controllers/image');
 
 const PORT = process.env.PORT;
 
